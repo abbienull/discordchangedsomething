@@ -115,27 +115,35 @@ async function main() {
 
   const table = Object.entries(versions.modules)
     .sort(([a], [b]) => a.localeCompare(b))
-    .map(([k, v]) => `| ${k} | ${v} |`)
+    .map(([k, v]) => `| \`${k}\` | \`${v}\` |`)
     .join('\n');
 
-  fs.writeFileSync(path.join(outDir, 'README.md'), `# discord-desktop-datamining
+  fs.writeFileSync(path.join(outDir, 'README.md'), `<div align="center">
 
-## ${channel} (${versions.host})
+# discordchangedsomething
+
+> **${channel.toUpperCase()}** • Host: \`${versions.host}\` • Updated: \`${new Date().toUTCString()}\`
+
+</div>
+
+### 📦 Modules
 
 | Module | Version |
 | :--- | :---: |
 ${table}
 
-### branches
+### 🌸 Branches
 
-- [stable](../../tree/stable)
-- [ptb](../../tree/ptb)
-- [canary](../../tree/canary)
-- [development](../../tree/development)
+- [\`stable\`](../../tree/stable)
+- [\`ptb\`](../../tree/ptb)
+- [\`canary\`](../../tree/canary)
+- [\`development\`](../../tree/development)
 
-### credits
+---
 
-- [abbienull](https://github.com/abbienull)
+<div align="center">
+<sub>Maintained by <a href="https://github.com/abbienull">abbienull</a></sub>
+</div>
 `);
 
   console.log(`[${channel}] done.`);
