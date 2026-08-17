@@ -46,6 +46,11 @@ jobs:
 
       - name: Publish
         run: |
+          if [ ! -d "out" ]; then
+            echo "No changes detected for ${{ matrix.channel }}. Skipping publish."
+            exit 0
+          fi
+
           mkdir -p ${{ env.CHECKOUT_DIR }}
           
           cd ${{ env.CHECKOUT_DIR }}
@@ -59,7 +64,9 @@ jobs:
           cp -rf out/. ${{ env.CHECKOUT_DIR }}
 
           echo "" > /tmp/changes.txt
-          cp -rf changes.txt /tmp/changes.txt || :
+          if [ -f changes.txt ]; then
+            cp -rf changes.txt /tmp/changes.txt
+          fi
 
           cd ${{ env.CHECKOUT_DIR }}
 
@@ -70,6 +77,10 @@ jobs:
           echo "*.exe" > .gitignore
 
           git add .
-          git branch -M ${{ matrix.channel }}
-          git commit -m "${{ matrix.channel }} update" -m "$(cat /tmp/changes.txt)" || :
-          git push origin ${{ matrix.channel }} --force
+          if [ -n "$(git status --porcelain)" ]; then
+            git branch -M ${{ matrix.channel }}
+            git commit -m "${{ matrix.channel }} update" -m "$(cat /tmp/changes.txt)"
+            git push origin ${{ matrix.channel }} --force
+          else
+            echo "No file changes to commit for ${{ matrix.channel }}."
+          fi

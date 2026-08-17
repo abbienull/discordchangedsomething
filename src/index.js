@@ -87,6 +87,28 @@ async function main() {
   const manifest = await fetchManifest(channel);
   const versions = parseVersions(manifest);
 
+  const isInitial = !oldVersions;
+  const diff = getDiff(oldVersions, versions);
+
+  if (!isInitial && diff.length === 0) {
+    console.log(`[${channel}] no version changes.`);
+    return;
+  }
+
+  if (diff.length) {
+    console.log(`[${channel}] changes detected:`);
+    for (const d of diff) console.log(`  ${d.name}: ${d.from} -> ${d.to}`);
+
+    fs.writeFileSync('changes.txt', diff.map(d => `${d.name}: ${d.from} -> ${d.to}`).join('\n'));
+
+    if (process.env.DISCORD_WEBHOOK) {
+      await sendWebhook(process.env.DISCORD_WEBHOOK, channel, versions.host, diff);
+    }
+  } else if (isInitial) {
+    console.log(`[${channel}] initial run detected.`);
+    fs.writeFileSync('changes.txt', `initial setup: host ${versions.host}`);
+  }
+
   const targets = ['host', ...Object.keys(manifest.modules || {})];
   for (const mod of targets) {
     try {
@@ -98,20 +120,6 @@ async function main() {
 
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
-
-  const diff = getDiff(oldVersions, versions);
-  if (diff.length) {
-    console.log(`[${channel}] changes detected:`);
-    for (const d of diff) console.log(`  ${d.name}: ${d.from} -> ${d.to}`);
-
-    fs.writeFileSync('changes.txt', diff.map(d => `${d.name}: ${d.from} -> ${d.to}`).join('\n'));
-
-    if (process.env.DISCORD_WEBHOOK) {
-      await sendWebhook(process.env.DISCORD_WEBHOOK, channel, versions.host, diff);
-    }
-  } else {
-    console.log(`[${channel}] no version changes.`);
-  }
 
   const table = Object.entries(versions.modules)
     .sort(([a], [b]) => a.localeCompare(b))
