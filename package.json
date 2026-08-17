@@ -1,0 +1,9 @@
+{
+  "name": "discord-desktop-datamining",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "abbienull (https://github.com/abbienull)",
+  "dependencies": {
+    "@electron/asar": "^3.2.3"
+  }
+}
