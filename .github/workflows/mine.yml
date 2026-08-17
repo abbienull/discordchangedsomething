@@ -34,7 +34,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Run
         env:
@@ -47,11 +47,9 @@ jobs:
         run: |
           mkdir -p ${{ env.CHECKOUT_DIR }}
           
-          # Initialize git repository if the branch does not exist yet
-          if [ ! -d "${{ env.CHECKOUT_DIR }}/.git" ]; then
-            cd ${{ env.CHECKOUT_DIR }}
-            git init
-            git checkout -b ${{ matrix.channel }}
+          cd ${{ env.CHECKOUT_DIR }}
+          if [ ! -d ".git" ]; then
+            git init -b ${{ matrix.channel }}
             git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           fi
 
@@ -71,5 +69,6 @@ jobs:
           echo "*.exe" > .gitignore
 
           git add .
-          git diff-index --quiet HEAD || git commit -m "${{ matrix.channel }} update" -m "$(cat /tmp/changes.txt)"
+          git branch -M ${{ matrix.channel }}
+          git commit -m "${{ matrix.channel }} update" -m "$(cat /tmp/changes.txt)" || :
           git push origin ${{ matrix.channel }}
