@@ -14,6 +14,7 @@ jobs:
   mine:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         channel: ['stable', 'ptb', 'canary', 'development']
 
@@ -71,4 +72,4 @@ jobs:
           git add .
           git branch -M ${{ matrix.channel }}
           git commit -m "${{ matrix.channel }} update" -m "$(cat /tmp/changes.txt)" || :
-          git push origin ${{ matrix.channel }}
+          git push origin ${{ matrix.channel }} --force
