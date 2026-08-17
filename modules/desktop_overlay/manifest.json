@@ -1,0 +1,8 @@
+{
+  "files": [
+    "discord_desktop_overlay.node",
+    "package.json",
+    "index.js",
+    "manifest.json"
+  ]
+}
