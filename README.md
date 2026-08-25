@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **DEVELOPMENT** • Host: `1.0.1025` • Updated: `Mon, 17 Aug 2026 23:29:45 GMT`
+> **DEVELOPMENT** • Host: `1.0.1026` • Updated: `Tue, 25 Aug 2026 21:06:17 GMT`
 
 </div>
 
@@ -26,6 +26,7 @@
 | `overlay2` | `1` |
 | `rpc` | `1` |
 | `spellcheck` | `1` |
+| `sysimg` | `1` |
 | `utils` | `1` |
 | `voice` | `1` |
 | `zstd` | `1` |
