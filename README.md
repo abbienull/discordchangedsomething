@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **PTB** • Host: `1.0.1214` • Updated: `Mon, 17 Aug 2026 23:29:48 GMT`
+> **PTB** • Host: `1.0.1215` • Updated: `Thu, 27 Aug 2026 19:57:36 GMT`
 
 </div>
 
@@ -26,6 +26,7 @@
 | `overlay2` | `1` |
 | `rpc` | `1` |
 | `spellcheck` | `1` |
+| `sysimg` | `1` |
 | `utils` | `1` |
 | `voice` | `1` |
 | `zstd` | `1` |

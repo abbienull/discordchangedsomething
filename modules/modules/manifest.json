@@ -1,10 +1,10 @@
 {
   "files": [
     "discord_modules.node",
-    "c42466b085faae\\2\\discord_game_sdk_x86.dll",
-    "c42466b085faae\\2\\discord_game_sdk_x64.dll",
-    "c42466b085faae\\discord_aegis_x86.dll",
-    "c42466b085faae\\discord_aegis_x64.dll",
+    "869c71ba1af940\\2\\discord_game_sdk_x86.dll",
+    "869c71ba1af940\\2\\discord_game_sdk_x64.dll",
+    "869c71ba1af940\\discord_aegis_x86.dll",
+    "869c71ba1af940\\discord_aegis_x64.dll",
     "package.json",
     "index.js",
     "manifest.json"
