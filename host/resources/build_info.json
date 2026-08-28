@@ -1,6 +1,6 @@
 {
   "releaseChannel": "ptb",
   "sentryDist": "ptb-win-x64",
-  "sentryRelease": "discord-desktop-869c71ba1af940ad1f9d40e6a10e3a618b2fdaf9",
-  "version": "1.0.1215"
+  "sentryRelease": "discord-desktop-ee5f55087cd74c2f7efec31613e5002343f0f3ca",
+  "version": "1.0.1216"
 }
