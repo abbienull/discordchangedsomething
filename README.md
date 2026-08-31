@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **STABLE** • Host: `1.0.9255` • Updated: `Mon, 24 Aug 2026 20:03:58 GMT`
+> **STABLE** • Host: `1.0.9256` • Updated: `Mon, 31 Aug 2026 21:02:42 GMT`
 
 </div>
 
@@ -26,6 +26,7 @@
 | `overlay2` | `1` |
 | `rpc` | `1` |
 | `spellcheck` | `1` |
+| `sysimg` | `1` |
 | `utils` | `1` |
 | `voice` | `1` |
 | `zstd` | `1` |
