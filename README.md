@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **CANARY** • Host: `1.0.1143` • Updated: `Tue, 01 Sep 2026 15:07:25 GMT`
+> **CANARY** • Host: `1.0.1146` • Updated: `Tue, 01 Sep 2026 18:28:16 GMT`
 
 </div>
 
@@ -10,7 +10,6 @@
 
 | Module | Version |
 | :--- | :---: |
-| `arborium` | `1` |
 | `clips` | `1` |
 | `cloudsync` | `1` |
 | `desktop_core` | `1` |
