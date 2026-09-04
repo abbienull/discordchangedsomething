@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **PTB** • Host: `1.0.1217` • Updated: `Sat, 29 Aug 2026 00:42:18 GMT`
+> **PTB** • Host: `1.0.1219` • Updated: `Fri, 04 Sep 2026 17:37:58 GMT`
 
 </div>
 
@@ -10,7 +10,6 @@
 
 | Module | Version |
 | :--- | :---: |
-| `arborium` | `1` |
 | `clips` | `1` |
 | `cloudsync` | `1` |
 | `desktop_core` | `1` |
