@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **STABLE** • Host: `1.0.9256` • Updated: `Mon, 31 Aug 2026 21:02:42 GMT`
+> **STABLE** • Host: `1.0.9257` • Updated: `Tue, 08 Sep 2026 18:35:33 GMT`
 
 </div>
 
@@ -10,7 +10,6 @@
 
 | Module | Version |
 | :--- | :---: |
-| `arborium` | `1` |
 | `clips` | `1` |
 | `cloudsync` | `1` |
 | `desktop_core` | `1` |
