@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **CANARY** • Host: `1.0.1172` • Updated: `Mon, 14 Sep 2026 22:34:57 GMT`
+> **CANARY** • Host: `1.0.1172` • Updated: `Tue, 15 Sep 2026 00:53:19 GMT`
 
 </div>
 
@@ -26,7 +26,7 @@
 | `rpc` | `1` |
 | `spellcheck` | `1` |
 | `sysimg` | `1` |
-| `utils` | `2` |
+| `utils` | `4` |
 | `voice` | `1` |
 | `zstd` | `1` |
 
