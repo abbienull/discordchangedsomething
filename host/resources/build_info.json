@@ -1,6 +1,6 @@
 {
   "releaseChannel": "canary",
   "sentryDist": "canary-win-x64",
-  "sentryRelease": "discord-desktop-b4bcfc95add51c259f3065b3353b7c1d85ca1172",
-  "version": "1.0.1196"
+  "sentryRelease": "discord-desktop-209b75ecc94d7a3a2d01e05c8d914b0353fdda1c",
+  "version": "1.0.1197"
 }
