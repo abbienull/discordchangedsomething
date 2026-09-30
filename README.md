@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **PTB** • Host: `1.0.1222` • Updated: `Thu, 24 Sep 2026 22:39:47 GMT`
+> **PTB** • Host: `1.0.1222` • Updated: `Wed, 30 Sep 2026 20:05:46 GMT`
 
 </div>
 
@@ -12,7 +12,7 @@
 | :--- | :---: |
 | `clips` | `1` |
 | `cloudsync` | `1` |
-| `desktop_core` | `1` |
+| `desktop_core` | `2` |
 | `desktop_overlay` | `1` |
 | `dispatch` | `1` |
 | `erlpack` | `1` |
