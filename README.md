@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **STABLE** • Host: `1.0.9260` • Updated: `Wed, 30 Sep 2026 23:45:24 GMT`
+> **STABLE** • Host: `1.0.9261` • Updated: `Mon, 05 Oct 2026 17:32:34 GMT`
 
 </div>
 
@@ -12,7 +12,7 @@
 | :--- | :---: |
 | `clips` | `1` |
 | `cloudsync` | `1` |
-| `desktop_core` | `2` |
+| `desktop_core` | `1` |
 | `desktop_overlay` | `1` |
 | `dispatch` | `1` |
 | `erlpack` | `1` |
