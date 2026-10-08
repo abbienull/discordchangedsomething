@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **PTB** • Host: `1.0.1223` • Updated: `Tue, 06 Oct 2026 03:09:53 GMT`
+> **PTB** • Host: `1.0.1224` • Updated: `Thu, 08 Oct 2026 23:43:40 GMT`
 
 </div>
 
@@ -21,13 +21,15 @@
 | `krisp` | `1` |
 | `media` | `1` |
 | `modules` | `1` |
+| `ndi` | `1` |
 | `notifications` | `1` |
 | `overlay2` | `1` |
+| `premap` | `1` |
 | `rpc` | `1` |
 | `spellcheck` | `1` |
 | `sysimg` | `1` |
 | `utils` | `1` |
-| `voice` | `2` |
+| `voice` | `1` |
 | `zstd` | `1` |
 
 ### 🌸 Branches
