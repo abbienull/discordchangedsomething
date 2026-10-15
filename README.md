@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **CANARY** • Host: `1.0.1233` • Updated: `Thu, 15 Oct 2026 01:54:06 GMT`
+> **CANARY** • Host: `1.0.1233` • Updated: `Thu, 15 Oct 2026 06:57:25 GMT`
 
 </div>
 
@@ -10,7 +10,7 @@
 
 | Module | Version |
 | :--- | :---: |
-| `clips` | `1` |
+| `clips` | `2` |
 | `cloudsync` | `1` |
 | `desktop_core` | `1` |
 | `desktop_overlay` | `1` |
@@ -29,7 +29,7 @@
 | `spellcheck` | `1` |
 | `sysimg` | `1` |
 | `utils` | `1` |
-| `voice` | `1` |
+| `voice` | `4` |
 | `zstd` | `1` |
 
 ### 🌸 Branches
