@@ -1,12 +1,12 @@
 {
   "files": [
     "discord_hook.node",
-    "2bd285f4f3f81f\\DiscordHook64.dll",
-    "2bd285f4f3f81f\\DiscordHookHelper64.exe",
-    "2bd285f4f3f81f\\discord_overlay_sdk_x64.dll",
-    "2bd285f4f3f81f\\DiscordHook.dll",
-    "2bd285f4f3f81f\\DiscordHookHelper.exe",
-    "2bd285f4f3f81f\\discord_overlay_sdk_x86.dll",
+    "83827f25c5b998\\DiscordHook64.dll",
+    "83827f25c5b998\\DiscordHookHelper64.exe",
+    "83827f25c5b998\\discord_overlay_sdk_x64.dll",
+    "83827f25c5b998\\DiscordHook.dll",
+    "83827f25c5b998\\DiscordHookHelper.exe",
+    "83827f25c5b998\\discord_overlay_sdk_x86.dll",
     "package.json",
     "index.js",
     "manifest.json"
