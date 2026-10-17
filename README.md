@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **CANARY** • Host: `1.0.1248` • Updated: `Fri, 16 Oct 2026 21:55:11 GMT`
+> **CANARY** • Host: `1.0.1249` • Updated: `Sat, 17 Oct 2026 00:10:52 GMT`
 
 </div>
 
@@ -12,8 +12,8 @@
 | :--- | :---: |
 | `clips` | `1` |
 | `cloudsync` | `1` |
-| `desktop_core` | `2` |
-| `desktop_overlay` | `2` |
+| `desktop_core` | `1` |
+| `desktop_overlay` | `1` |
 | `dispatch` | `1` |
 | `erlpack` | `1` |
 | `game_utils` | `1` |
@@ -28,7 +28,7 @@
 | `rpc` | `1` |
 | `spellcheck` | `1` |
 | `sysimg` | `1` |
-| `utils` | `1` |
+| `utils` | `2` |
 | `voice` | `1` |
 | `zstd` | `1` |
 
