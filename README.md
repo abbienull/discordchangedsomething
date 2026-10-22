@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **STABLE** • Host: `1.0.9264` • Updated: `Thu, 22 Oct 2026 04:48:20 GMT`
+> **STABLE** • Host: `1.0.9265` • Updated: `Thu, 22 Oct 2026 14:42:20 GMT`
 
 </div>
 
@@ -22,7 +22,7 @@
 | `media` | `1` |
 | `modules` | `1` |
 | `ndi` | `1` |
-| `notifications` | `2` |
+| `notifications` | `1` |
 | `overlay2` | `1` |
 | `premap` | `1` |
 | `rpc` | `1` |
