@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **PTB** • Host: `1.0.1226` • Updated: `Thu, 22 Oct 2026 04:48:24 GMT`
+> **PTB** • Host: `1.0.1227` • Updated: `Thu, 22 Oct 2026 09:42:03 GMT`
 
 </div>
 
@@ -22,7 +22,7 @@
 | `media` | `1` |
 | `modules` | `1` |
 | `ndi` | `1` |
-| `notifications` | `2` |
+| `notifications` | `1` |
 | `overlay2` | `1` |
 | `premap` | `1` |
 | `rpc` | `1` |
