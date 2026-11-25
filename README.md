@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **CANARY** • Host: `1.0.1362` • Updated: `Wed, 25 Nov 2026 00:34:16 GMT`
+> **CANARY** • Host: `1.0.1362` • Updated: `Wed, 25 Nov 2026 09:05:57 GMT`
 
 </div>
 
@@ -18,7 +18,7 @@
 | `erlpack` | `1` |
 | `game_utils` | `1` |
 | `hook` | `1` |
-| `krisp` | `1` |
+| `krisp` | `2` |
 | `media` | `1` |
 | `modules` | `1` |
 | `ndi` | `1` |
