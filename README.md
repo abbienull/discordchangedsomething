@@ -2,7 +2,7 @@
 
 # discordchangedsomething
 
-> **PTB** • Host: `1.0.1234` • Updated: `Sat, 21 Nov 2026 03:58:24 GMT`
+> **PTB** • Host: `1.0.1235` • Updated: `Thu, 26 Nov 2026 02:14:21 GMT`
 
 </div>
 
@@ -29,7 +29,7 @@
 | `spellcheck` | `1` |
 | `sysimg` | `1` |
 | `utils` | `1` |
-| `voice` | `2` |
+| `voice` | `1` |
 | `zstd` | `1` |
 
 ### 🌸 Branches
